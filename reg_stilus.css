@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, rgb(0, 128, 128) 0%, rgb(127, 255, 212) 88%);
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+#form{
+    background-color: darkslategray;
+    margin: 20vh auto 0 auto;
+    width: 500px;
+    border-radius: 11px;
+    padding: 20px;
+    border: 5px solid white;
+    color: azure;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+    transition: transform 0.5s, box-shadow 0.5s;
+}

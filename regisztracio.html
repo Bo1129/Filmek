@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="reg_stilus.css">
+    
+</head>
+<body>
+    <form id="form">
+    <h1>Regisztráció</h1>
+          <div class="input_group">
+            <label for="felhasznalonev">Felhasználónév: </label>
+            <input type="text" id="felhasznalonev" name="felhasznalonev">
+            <div class="errMessage"></div>
+            </div>
+            <div class="input_group">
+            <label for="email">E-mail cím: </label>
+            <input type="email" id="email" name="email">
+            <div class="errMessage"></div>
+            </div>
+            <div class="input_group">
+            <label for="jelszo">Jelszó: </label>
+            <input type="password" id="jelszo" name="jelszo">
+            <div class="errMessage"></div>
+            </div>
+           <div class="input_group">
+            <label for="mjelszo">Megerősítés: </label>
+            <input type="password" id="mjelszo" name="mjelszo">
+            <div class="errMessage"></div>
+            <button onclick="UserValidation()">Küldés</button>
+            <p id="message"></p>
+        </div>
+        </form>
+    <script src="regisztracioscript.js"></script>
+</body>
+</html>
