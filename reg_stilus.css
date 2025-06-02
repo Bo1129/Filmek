@@ -16,3 +16,75 @@ body{
     transition: transform 0.5s, box-shadow 0.5s;
 }
 
+#form button{
+    background-color: rgb(90, 161, 161);
+    color: white;
+    border-radius: 5px;
+    border: 5px dotted white;
+    padding: 5px;
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.input_group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input_group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid rgb(171, 223, 223);
+    padding: 5px;
+}
+
+.input_group .errMessage{
+    color: rgb(241, 85, 85);
+    font-size: 14px;
+    margin-top: 2.5px;
+}
+
+.close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    z-index: 10;
+}
+
+#uzenet{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: rgb(10, 57, 10);
+    margin: 15px;
+}
+
+#fooldal{
+    text-align: center;
+    font-size: 45px;
+}
+
+a{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(26, 77, 66);
+    text-decoration: none; 
+    margin: 15px;
+    letter-spacing: 1px;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: lightcyan;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    color: darkcyan;
+}
